@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HistogramGenerator<T> {
-    private final T[] data;
+    private final T [] data;
     
     public HistogramGenerator(T[] data){
         this.data = data;
